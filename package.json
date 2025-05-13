@@ -1,0 +1,38 @@
+{
+  "name": "spotify-tidal-integrator",
+  "version": "1.0.0",
+  "description": "Spotify and TIDAL integrator for playlist management",
+  "keywords": [
+    "spotify",
+    "tidal",
+    "js",
+    "node"
+  ],
+  "homepage": "https://github.com/argenisailo/spotify-tidal-integrator#readme",
+  "bugs": {
+    "url": "https://github.com/argenisailo/spotify-tidal-integrator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argenisailo/spotify-tidal-integrator.git"
+  },
+  "license": "ISC",
+  "author": "Argenis López",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "modemon index.js",
+    "lint": "npx lint .",
+    "init lint": "npx eslint --init"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0",
+    "eslint": "^9.26.0",
+    "nodemon": "^3.1.10"
+  }
+}
